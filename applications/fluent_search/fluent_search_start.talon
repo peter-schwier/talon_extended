@@ -1,5 +1,5 @@
-tag: user.fluent_search
-and not tag: user.disable_fluent_search
+tag: user.fluent_search_installed
+and not tag: user.fluent_search_disabled
 -
 ^follow$:
     key(ctrl-alt-shift-m)
